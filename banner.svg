@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="416" viewBox="0 0 1400 416" role="img" aria-labelledby="title desc">
+  <title id="title">pi-remove-concise-and-filepath-rules</title>
+  <desc id="desc">Pi's system prompt rules block with "Be concise in your responses" and "Show file paths clearly when working with files" struck out and marked as removed.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect width="1400" height="416" rx="16" fill="url(#bg)"/>
+
+  <!-- Window -->
+  <rect x="40" y="30" width="1320" height="356" rx="12" fill="#010409" stroke="#30363d"/>
+  <circle cx="68" cy="56" r="6" fill="#ff5f57"/>
+  <circle cx="88" cy="56" r="6" fill="#febc2e"/>
+  <circle cx="108" cy="56" r="6" fill="#28c840"/>
+  <text x="1332" y="61" text-anchor="end" class="mono" font-size="14" fill="#6e7681">system prompt</text>
+
+  <g class="mono" font-size="15">
+    <text x="72" y="104" fill="#7ee787">&lt;rules&gt;</text>
+    <text x="92" y="136" fill="#c9d1d9">- Use bash for file operations like ls, rg, find</text>
+    <text x="92" y="168" fill="#c9d1d9">- Use read to examine files instead of cat or sed.</text>
+    <text x="92" y="200" fill="#c9d1d9">- You can inspect PI_* environment variables for current model and session details.</text>
+    <text x="92" y="232" fill="#c9d1d9">- Use write only for new files or complete rewrites.</text>
+    <text x="92" y="264" fill="#c9d1d9">- Use codemode to batch independent tool calls (Promise.allSettled), chain them, or filter large output, instead of many separate calls.</text>
+
+    <!-- Removed rule 1 -->
+    <rect x="80" y="276" width="1260" height="30" rx="6" fill="#f85149" fill-opacity="0.12"/>
+    <text x="92" y="296" fill="#ffa198" fill-opacity="0.85" text-decoration="line-through">- Be concise in your responses</text>
+    <text x="1324" y="296" text-anchor="end" font-size="13" font-weight="700" fill="#f85149">REMOVED</text>
+
+    <!-- Removed rule 2 -->
+    <rect x="80" y="308" width="1260" height="30" rx="6" fill="#f85149" fill-opacity="0.12"/>
+    <text x="92" y="328" fill="#ffa198" fill-opacity="0.85" text-decoration="line-through">- Show file paths clearly when working with files</text>
+    <text x="1324" y="328" text-anchor="end" font-size="13" font-weight="700" fill="#f85149">REMOVED</text>
+
+    <text x="72" y="362" fill="#7ee787">&lt;/rules&gt;</text>
+  </g>
+
+</svg>

@@ -27,13 +27,13 @@ Then run `/reload` in Pi.
 ## Uninstall
 
 ```bash
-pi remove npm:pi-remove-concise-and-filepath-rules
+pi uninstall npm:pi-remove-concise-and-filepath-rules
 ```
 
 Or, if you installed from git:
 
 ```bash
-pi remove git:github.com/xRyul/pi-remove-concise-and-filepath-rules
+pi uninstall git:github.com/xRyul/pi-remove-concise-and-filepath-rules
 ```
 
 Then run `/reload` in Pi.

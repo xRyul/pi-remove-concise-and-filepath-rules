@@ -24,6 +24,16 @@ pi install git:github.com/xRyul/pi-remove-concise-and-filepath-rules
 
 Then run `/reload` in Pi.
 
-## License
+## Uninstall
 
-MIT
+```bash
+pi remove npm:pi-remove-concise-and-filepath-rules
+```
+
+Or, if you installed from git:
+
+```bash
+pi remove git:github.com/xRyul/pi-remove-concise-and-filepath-rules
+```
+
+Then run `/reload` in Pi.

@@ -1,0 +1,37 @@
+{
+  "name": "pi-remove-concise-and-filepath-rules",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pi extension that removes the built-in \"Be concise\" and \"Show file paths clearly\" system prompt rules.",
+  "license": "MIT",
+  "author": "xRyul",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xRyul/pi-remove-concise-and-filepath-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xRyul/pi-remove-concise-and-filepath-rules/issues"
+  },
+  "homepage": "https://github.com/xRyul/pi-remove-concise-and-filepath-rules#readme",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "system-prompt"
+  ],
+  "files": [
+    "index.ts",
+    "banner.svg"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "image": "https://raw.githubusercontent.com/xRyul/pi-remove-concise-and-filepath-rules/v1.0.0/banner.svg"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
